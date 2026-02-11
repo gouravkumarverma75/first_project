@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+</head>
+<body>
+<form>
+<h1><center>Student registration form</center></h1>
+<center> <label for=" name">Username:</label>
+<input type="text" id="name" name="name" required><br><br>
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required><br><br>
+<label for="password">Password:</label>
+<input type="password" id="password" name="password" required><br></br>
+</label>
+<label for="contact number">number:</label>
+<input type=" contact number" id="contact number" name="contact number"
+min="1"
+max="10"><br></br>
+<label for="course">Choose a course</label>
+<select id="course" name="course">
+<option value="btech">btech</option>
+<option value="b.arch">b.arch</option>
+<option value="B.A">B.A</option>
+<option value="b.com">b.com</option>
+</select>
+<h2>
+<label for="address"></label>
+<textarea rows="4" cols="40" placeholder="Enter your address"></textarea>
+</h2>
+<h3> <input type="button" id="btn"value="register"></input></h3>
+<h3> <input type="button" id="btn"value="clear"></input></h3>
+</center>
+</body>
+</html>

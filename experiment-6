@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Product Page - Simple</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+<h1>Amazon</h1>
+</header>
+<main class="container">
+<section class="product-card">
+<img class="product-image" src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSO3pwCed-wodDNWwh_5j1Pjlwu0iEwiFv4oMdnpabtw44tpOr0sKn2tsnBdp7fi9z1WBsexUJXRfVC1IlD9k5NDuRZXDGaG37vhR6iWI2KS0BplJUzAq6YNw" height="300" alt="Product">
+<h2 class="product-title">Classic Hoody </h2>
+<p class="product-desc">Soft. Regular fit. Available in only 3 colors.</p>
+<div class="price-row">
+<span class="price">₹699</span>
+<span class="old-price">₹1099</span>
+</div>
+<button class="add-cart">Add to Cart</button>
+</section>
+</main>
+</body>
+</html>
+<style>
+
+
+body {
+font-family: 'Italic', sans-serif;
+margin: 0;
+padding: 0;
+}
+
+.site-header {
+background-color: #73a530;
+color: #514747;
+padding: 30px;
+text-align: center;
+}
+.container {
+  max-width: 480px;       /* size of the card/container */
+  margin: 40px auto;      /* centers it */
+  background: #bbbec9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+.product-card {
+background: #fff;
+border: 1px solid #e0e4ef; /* border */
+padding: 12px; /* padding */
+width: 100%; /* width */
+height: auto; /* height (auto) */
+border-radius: 6px;
+}
+    
+
+
+.product-image {
+width: 180px;
+height: auto;
+}
+
+.product-title {
+font-size: 24px;
+margin: 10px 0;
+}
+
+.product-desc {
+    font-size: 14px;
+color: #444; /* color */
+margin-bottom: 10px;
+}
+
+.price-row {
+display: flex;
+align-items: center;
+margin: 10px 0;
+}
+
+.price-row { margin-bottom: 12px; }
+.price {
+font-weight: 700;
+color: #0b6b3a;
+margin-right: 8px; /* margin */
+display: inline; /* inline */
+}
+.old-price {
+color: #888;
+text-decoration: line-through;
+display: inline; /* inline */
+}
+.add-cart {
+display: block; /* block button fills available width */
+width: 100%; /* width */
+padding: 10px; /* padding */
+background: #0066cc; /* color */
+color: #fff;
+border: none;
+border-radius: 4px; /* border radius (visual) */
+cursor: pointer;
+font-size: 16px; /* font */
+font-weight: bold;    
+}
+
+</style>

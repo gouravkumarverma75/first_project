@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="wide-nav">
+        <h2 class="logo">Flipkart</h2>
+        
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Store</a></li>
+          <li><a href="#">Men</a></li>
+          <li><a href="#">Women</a></li>
+          <li><a href="#">Kids</a></li>
+          <li><a href="#">Footwear</a></li>
+          <li><a href="#">Accessories</a></li>
+          <li><a href="#">Offers</a></li>
+          <li><a href="#">Trending</a></li>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Cart</a></li>
+          <li><a href="#">Profile</a></li>
+        </ul>
+      </nav>
+
+</body>
+</html>
+<style>
+    .wide-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #a98dbe;
+  padding: 20px 20px;
+  color: white;
+}
+
+.wide-nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap; /* allows 12 items in one row */
+  gap: 10px;
+}
+
+.wide-nav ul li a {
+  color: rgb(15, 2, 2);
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.wide-nav ul li a:hover {
+  color: #88b8cf;
+}
+</style>

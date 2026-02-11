@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Experiment-3</title>
+</head>
+<body>
+<h1><center><b>ABES ENGINEERING COLLEGE,GHAZIABAD</b></center></h1>
+<h2><center><b>Time Table Of CSEDS-2</b></center></h2>
+<table border="2" width="80%" align="center">
+<tr>
+<th>DAY</th>
+<th>8:50-9:40</th>
+<th>9:40-10:30</th>
+<th>10:40-11:30</th>
+<th>11:30-12:20</th>
+<th>12:20-1:10</th>
+<th>1:10-2:00</th>
+<th>2:00-2:50</th>
+<th>2:50-3:40</th>
+<th>3:40-4:30</th>
+</tr>
+<tr>
+<td>MONDAY</td>
+<td>Electrical</td>
+<td>math</td>
+<td>DATA STRUCTURE</td>
+<td>DATA STRUCTURE</td>
+<td>LUNCH</td>
+<td>PHYSICS LAB</td>
+<td>MATH</td>
+<td>PHYSICS</td>
+</tr>
+<tr>
+<td>TUESDAY</td>
+<td>AI</td>
+<td>PHYSICS</td>
+<td>MATH</td>
+<td>ELECRICAL</td>
+<td>LUNCH</td>
+<td>ENVIROMENT</td>
+<td>MATH</td>
+<td>CAD LAB</td>
+<td>CAD LAB</td>
+</tr>
+<tr>
+<td>WEDNESDAY</td>
+<td>DATA STRUCTUE</td>
+<td>DATA STRUCTURE</td>
+<td>AI</td>
+<td>ENVIROMENT</td>
+<td>LUNCH</td>
+<td>MATH</td>
+<td>Physics </td>
+<td>ELECTRICAL</td>
+</tr>
+<tr>
+<td>THURSDAY</td>
+<td>WEB DESIGNING WORKSHOP</td>
+<td>WEB DESIGNING WORKSHOP</td>
+<td>physics</td>
+<td>math</td>
+<td>Lunch</td>
+<td>electrical</td>
+<td>DSA</td>
+<td>DSA</td>
+<td>mentor-mentee</td>
+</tr>
+<tr>
+<td>FRIDAY</td>
+<td>AI</td>
+<td>ENVIROMENT</td>
+<td>ELECTRICAL</td>
+<td>PHYSICS</td>
+<td>Lunch</td>
+<td>ELECRICAL LAB</td>
+<td>ELCERICAL LAB</td>
+<td>Mathematics</td>
+<td>WEB DESIGNING WORKSHOP</td
+</tr>
+</body>
+</html>
